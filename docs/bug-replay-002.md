@@ -83,3 +83,13 @@ This bug was identified through manual bug replay and frame-based reasoning.
 ## Ghi chú
 Bug này được xác định thông qua việc replay bug thủ công
 và phân tích theo từng frame của runtime.
+
+---
+
+## Related Invariant / Invariant liên quan
+
+This bug violates:
+- Invariant 4 — Terminal entities must not be processed further.
+
+*Bug này vi phạm:*
+- Invariant 4 — Entity ở trạng thái kết thúc không được tiếp tục xử lý.
