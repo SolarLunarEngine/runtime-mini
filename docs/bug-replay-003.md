@@ -78,3 +78,13 @@ commit, and side-effect responsibilities.
 ## Ghi chú
 Bug này nhấn mạnh tầm quan trọng của việc tách biệt rõ
 decision, commit và side-effect.
+
+---
+
+## Related Invariant / Invariant liên quan
+
+This bug violates:
+- Invariant 3 — Side-effects must not mutate world state.
+
+*Bug này vi phạm:*
+- Invariant 3 — Side-effect không được phép thay đổi trạng thái world.*
