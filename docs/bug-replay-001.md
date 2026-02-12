@@ -25,3 +25,10 @@ A damage value persists across frames and is applied one frame late.
 
 ## Notes
 This bug is intentionally constructed for learning and replay purposes.
+
+---
+
+## Related Invariant
+
+This bug violates:
+- Invariant 2 — Each frame may perform at most one Commit.
